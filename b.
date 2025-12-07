@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>Simple Calculator</h3>
+
+<input id="a" type="number" placeholder="First number">
+<input id="b" type="number" placeholder="Second number">
+
+<br><br>
+
+<button onclick="add()">Add</button>
+<button onclick="sub()">Subtract</button>
+<button onclick="mul()">Multiply</button>
+<button onclick="div()">Divide</button>
+
+<p id="ans"></p>
+
+<script>
+function add() {
+    var x = Number(document.getElementById("a").value);
+    var y = Number(document.getElementById("b").value);
+    document.getElementById("ans").innerHTML = x + y;
+}
+
+function sub() {
+    var x = Number(document.getElementById("a").value);
+    var y = Number(document.getElementById("b").value);
+    document.getElementById("ans").innerHTML = x - y;
+}
+
+function mul() {
+    var x = Number(document.getElementById("a").value);
+    var y = Number(document.getElementById("b").value);
+    document.getElementById("ans").innerHTML = x * y;
+}
+
+function div() {
+    var x = Number(document.getElementById("a").value);
+    var y = Number(document.getElementById("b").value);
+    document.getElementById("ans").innerHTML = x / y;
+}
+</script>
+
+</body>
+</html>
