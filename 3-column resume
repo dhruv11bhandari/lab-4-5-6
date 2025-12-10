@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Resume - Dhruv Bhandari</title>
+
+<style>
+ html,body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  
+}
+
+h1 {
+  text-align: center;
+  padding: 20px 0;
+  margin: 0;
+  background: #ffffff;
+  border-bottom: 1px solid #ccc;
+  background-color: rgb(190, 162, 127);
+}
+
+.container {
+  display: flex;
+  height: calc(100% - 80px); 
+  width: 100%;
+  background-color: bisque;
+}
+
+.column {
+  flex: 1;
+  background: white;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: rgb(200, 161, 112);
+}
+
+.column h2 {
+  margin-top: 0;
+  color: #003366;
+  font-size: 18px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+</style>
+
+</head>
+<body>
+
+<h1>Dhruv Bhandari – Resume</h1>
+
+<div class="container">
+
+  <div class="column">
+    <h2>Personal Details</h2>
+    <p><strong>Phone:</strong> 8971299733</p>
+    <p><strong>Email:</strong> 123defgwu@gmail.com</p>
+    <p><strong>Address:</strong> Bangalore</p>
+  </div>
+
+  <div class="column">
+    <h2>Education</h2>
+    <p><strong>University:</strong> RV University, Bangalore</p>
+  </div>
+
+  <div class="column">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+  </div>
+
+</div>
+
+</body>
+</html>
