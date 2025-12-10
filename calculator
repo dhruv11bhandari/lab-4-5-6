@@ -9,10 +9,10 @@
 
 <br><br>
 
-<button onclick="add()">Add</button>
-<button onclick="sub()">Subtract</button>
-<button onclick="mul()">Multiply</button>
-<button onclick="div()">Divide</button>
+<button onclick="add()">ADD</button>
+<button onclick="sub()">SUBTRACT</button>
+<button onclick="mul()">MULTIPLY</button>
+<button onclick="div()">DIVIDE</button>
 
 <p id="ans"></p>
 
@@ -41,6 +41,15 @@ function div() {
     document.getElementById("ans").innerHTML = x / y;
 }
 </script>
-
+<style>
+    body {
+    
+        background-color: aquamarine;
+        h3
+        {
+            color:rgb(236, 13, 13)
+        }
+    }
+</style>
 </body>
 </html>
